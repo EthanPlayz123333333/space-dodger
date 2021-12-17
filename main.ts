@@ -136,6 +136,7 @@ Boba_fett = sprites.create(img`
 controller.moveSprite(Boba_fett, 100, 100)
 Boba_fett.setStayInScreen(true)
 info.setLife(1)
+music.playMelody("B C5 B A G A B A ", 292)
 game.onUpdateInterval(1000, function () {
     mederer = sprites.create(img`
         . . . . . . . . . . . . . . . . 
